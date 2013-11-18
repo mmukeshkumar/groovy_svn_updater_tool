@@ -7,11 +7,9 @@
  * script to update svn repositories
  */
 //add repositories to this list as needed
-def repositories = ['C:\\Projects\\branches\\2013_projects\\some_svn_repository_1',
-        'C:\\Projects\\trunk\\metrofax_sales_signup_trunk\\some_svn_repository_2',
-        'C:\\Projects\\branches\\2013_projects\\fax_api_plugin\\some_svn_repository_3',
-        'C:\\Projects\\branches\\2013_projects\\some_svn_repository_4',
-        'C:\\Projects\\branches\\2013_projects\\some_svn_repository_5']
+def repositories = ['C:\\Projects\\branches\\2013_projects\\some_svn_repository_1',        
+        'C:\\Projects\\branches\\2013_projects\\some_svn_repository_2',
+        'C:\\Projects\\branches\\2013_projects\\some_svn_repository_3']
 def day = new Date()
 println "\n************Starting updating svn repositories: Date: $day ****"
 repositories.each {
